@@ -5,11 +5,12 @@ const mongoose = require('mongoose');
 // const userCollection = 'users'
 // const taskCollection = 'tasks'
 
-const databaseName = process.env.MONGODB_DBNAME
-const protocol = process.env.MONGODB_PROTOCOL
-const ip = process.env.MONGODB_HOST
-const port = process.env.MONGODB_PORT
-const connectionURL = protocol + '://' + ip + ':' + port + '/' + databaseName
+// const databaseName = process.env.MONGODB_DBNAME
+// const protocol = process.env.MONGODB_PROTOCOL
+// const ip = process.env.MONGODB_HOST
+// const port = process.env.MONGODB_PORT
+// const connectionURL = protocol + '://' + ip + ':' + port + '/' + databaseName
+const connectionURL = process.env.MONGODB_URL
 
 const options = { 
     useNewUrlParser: true,
