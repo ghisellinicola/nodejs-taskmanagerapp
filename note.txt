@@ -1,0 +1,23 @@
+Mongoose allow to model the data that we want to store in the DB!
+
+Mongoose uses MongoDB behind the scenes!
+
+
+
+// ------------------------------------------------------------------------------
+
+Installare pacchetto come dipendenza di uno script
+
+npm install nodemon --save-dev
+
+
+
+// ------------------------------------------------------------------------------
+
+Lanciare MongoDB
+
+mongod --dbpath=/home/portiere/PROJECTS/MongoDB/Data
+
+// ------------------------------------------------------------------------------
+
+USE PROCESS ENVIRONMENT TO STORE SAFELY OUR PASSWORDs, APIKEYs
